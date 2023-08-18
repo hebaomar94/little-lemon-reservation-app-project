@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ReservationForm: View {
+
     
     @EnvironmentObject var model:Model
     @State var showFormInvalidMessage = false
